@@ -1,8 +1,122 @@
 body{
-    
     font-family: 'Enriqueta', serif;
 }
 
+.navbar{}
+
 .logoName-sty{
-    font-size: 1.3em;
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: rgba(255,165,0,1);
 }
+
+
+.navalert-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar-text{
+    font-size: 80%;
+}
+
+
+
+
+
+.alert-container{}
+
+
+.callout-container{
+    height: 100vh;
+    
+    background: url('/images/whiskey1.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    /*vertical alignment*/
+    align-items: center;
+    /*Horizontal Alignment*/
+    justify-content: center;
+
+    position: relative;
+}
+
+.jumbotron{
+    background-color: transparent;
+}
+
+.jumbotron-header{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.lead{
+    color: #ffa500;
+
+}
+
+.callout-container mark{
+    /*from css gradient*/
+    background: rgb(237,232,177);
+    background: radial-gradient(circle, rgba(237,232,177,1) 9%, rgba(237,232,177,0.40116954985119047) 45%, rgba(237,232,177,1) 90%);
+    border-radius: 5px;
+    color: #2b2b2b;
+}
+
+.callout-container small{
+    font-variant: small-caps;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 60%;
+    color: #67604c;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.btn--cta{
+    width: 200px;
+    color: #080808;
+    border-radius: 25px;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+.btn--gold{
+    
+    background: rgb(255,165,0);
+    background: linear-gradient(90deg, rgba(255,165,0,0.16538732192095584) 10%, rgba(255,165,0,1) 50%, rgba(255,165,0,0.25831240699404767) 90%);
+}
+
+.btn--gold:hover{
+    background: rgb(242,209,147);
+    background: linear-gradient(90deg, rgba(242,209,147,0.09584742099964982) 7%, rgba(255,165,0,1) 45%, rgba(242,209,147,0.09864854144782909) 92%);
+    font-weight: 999;
+    color: #080808;
+
+}
+
+
+.quotes-container{}
+
+
+.features-container{}
+
+
+
+@media 1172:
