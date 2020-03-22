@@ -24,8 +24,28 @@ body{
     font-size: 80%;
 }
 
+.mr-auto{
+    background-color:rgba(0, 0, 0, 1);
+    width: 50%;
+    border-radius: 10px;
+}
+
+.navbar-toggler{
+    border: none;
+}
 
 
+.signup-sty{
+    color: rgba(255,165,0,1);
+    font-style: italic;
+}
+
+.dropdown-menu{
+    background: rgb(255,165,0);
+    background: linear-gradient(90deg, rgba(255,165,0,0.16538732192095584) 10%, rgba(255,165,0,1) 50%, rgba(255,165,0,0.25831240699404767) 90%);
+    text-align: center;
+    border-radius: 10px;
+}
 
 
 .alert-container{}
@@ -118,5 +138,14 @@ body{
 .features-container{}
 
 
+@media screen and (max-width: 940px) {
+    .navbar-text {
+      display: none;
+    }
+  }
 
-@media 1172:
+  @media screen and (max-width: 645px) {
+    .signup-sty {
+      display: none;
+    }
+  }
